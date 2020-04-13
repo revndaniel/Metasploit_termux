@@ -47,7 +47,7 @@ rm ./modules/auxiliary/gather/http_pdf_authors.rb
 #ln -sf $msfpath/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin/
 #ln -sf $msfpath/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
 
-termux-elf-cleaner /data/data/com.termux/files/usr/lib/ruby/gems/2.6.0/gems/pg-0.20.0/lib/pg_ext.so
+termux-elf-cleaner /data/data/com.termux/files/usr/lib/ruby/gems/2.7.0/gems/pg-0.20.0/lib/pg_ext.so
 echo "Creating database"
 
 cd $msfpath/metasploit-framework/config
